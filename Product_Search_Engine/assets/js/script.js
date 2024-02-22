@@ -1,5 +1,5 @@
 var search = ()=>{
-    var searchbox = document.getElementById("search-item").ariaValueMax.toUpperCase()
+    var searchbox = document.getElementById("search-item")
     var storeitems = document.getElementById("product-list")
     var product =document.querySelectorAll(".product")
     var pname = storeitems.getElementsByTagName("h2")
@@ -19,3 +19,4 @@ var search = ()=>{
     }
 
 }
+// .value.toUpperCase()
